@@ -46,7 +46,7 @@ Highlighted below some of the comparisons of the results we obtain.
 <img src="imgs/low_2nd.png" alt="comparison 1">
 <img src="imgs/high_2nd.png" alt="comparison 1">
 
-<figcaption>Constant step and shrinking steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
+<figcaption>Shrinking and switching steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
 </figure>
 
 We refer  to the main report for further details.
