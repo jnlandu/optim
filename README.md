@@ -4,12 +4,48 @@ This project evaluates the performance and convergence of various stochastic gra
 ## Experimental Results
 #### Comparing All Variants
 - Low Correlation Data (ρ=0.1): The SGD switch variant performs well initially, but SGD with momentum (β=0.4\beta = 0.4β=0.4) ultimately provides the best performance, with the lowest error and most stable convergence.
+<figure>
+<img src="imgs/low_4th.png" alt="comparison 1">
+
+<!-- <img src="imgs/high_1st.png" alt="comparison 1"> -->
+
+
+<figcaption>Constant step and shrinking steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
+
+</figure>
 - High Correlation Data (ρ=0.7): All methods are impacted by high correlation, but SGD with momentum (β=0.6\beta = 0.6β=0.6) outperforms the others by achieving  the lowest loss and distance to the minimum, effectively managing the noise introduced by correlated features.
+
+<figure>
+<!-- <img src="imgs/low_1st.png" alt="comparison 1"> -->
+
+<img src="imgs/high_4th.png" alt="comparison 1">
+
+
+<figcaption>Constant step and shrinking steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
+
+</figure>
 
 #### Comparing Full Gradient Descent to SGD with Momentum and Switch Variants
 - Low Correlation Data (ρ=0.1): Gradient Descent performs best overall, smoothly converging to very low loss values and effectively reaching the minima. SGD momentum with β=0.4\beta = 0.4β=0.4 performs well, surpassing SGD switch in later stages with lower loss and better convergence, but only Gradient Descent effectively reaches the minima.
-- High Correlation Data (ρ=0.7): SGD momentum with β=0.6\beta = 0.6β=0.6 outperforms the other variants by achieving the lowest loss and distance to the minimum. Gradient Descent, while smooth, is slower due to high correlation noise, and SGD switch struggles with oscillations. Overall, all methods perform relatively similarly in the presence of high correlation.
+<figure>
+<img src="imgs/low_5th.png" alt="comparison 1">
 
+<!-- <img src="imgs/high_1st.png" alt="comparison 1"> -->
+
+
+<figcaption>Constant step and shrinking steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
+
+</figure>
+- High Correlation Data (ρ=0.7): SGD momentum with β=0.6\beta = 0.6β=0.6 outperforms the other variants by achieving the lowest loss and distance to the minimum. Gradient Descent, while smooth, is slower due to high correlation noise, and SGD switch struggles with oscillations. Overall, all methods perform relatively similarly in the presence of high correlation.
+<figure>
+<!-- <img src="imgs/low_1st.png" alt="comparison 1"> -->
+
+<img src="imgs/high_5th.png" alt="comparison 1">
+
+
+<figcaption>Constant step and shrinking steps SGD: plots of  the errors of the objective vs iterations for 1) low correlated data and 2) higher correlated data.</figcaption>
+
+</figure>
 
 
 
