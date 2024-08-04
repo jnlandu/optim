@@ -1,0 +1,5 @@
+A working computer with:
+- a python compiler
+- numpy 
+- matplotlib 
+- scipy
