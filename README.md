@@ -10,7 +10,7 @@ This project evaluates the performance and convergence of various stochastic gra
 <img src="imgs/low_4th.png" alt="comparison 1">
 
 <figcaption>Comparison of all variants of the SGD: plots of the errors of the
-objective vs iterations for 1) low correlated data and 2) higher correlated data</figcaption>
+objective vs iterations for low correlated data</figcaption>
 
 </figure>
 
@@ -25,7 +25,7 @@ objective vs iterations for 1) low correlated data and 2) higher correlated data
 <img src="imgs/high_4th.png" alt="comparison 1">
 
 <figcaption>Comparison of all variants of the SGD: plots of the errors of the
-objective vs iterations for 1) low correlated data and 2) higher correlated data</figcaption>
+objective vs iterations for higher correlated data</figcaption>
 
 </figure>
 
@@ -41,7 +41,7 @@ objective vs iterations for 1) low correlated data and 2) higher correlated data
 <img src="imgs/low_5th.png" alt="comparison 1">
 
 <figcaption>Comparison of the full gradient descent with the SGD with momentum and switch variants: plots of the errors of the objective vs iterations for 1)
-low correlated data and 2) higher correlated data.</figcaption>
+low correlated data.</figcaption>
 
 </figure>
 
@@ -55,8 +55,7 @@ low correlated data and 2) higher correlated data.</figcaption>
 <img src="imgs/high_5th.png" alt="comparison 1">
 
 
-<figcaption>Comparison of the full gradient descent with the SGD with momentum and switch variants: plots of the errors of the objective vs iterations for 1)
-low correlated data and 2) higher correlated data.</figcaption>
+<figcaption>Comparison of the full gradient descent with the SGD with momentum and switch variants: plots of the errors of the objective vs iterations for higher correlated data.</figcaption>
 
 </figure>
 
